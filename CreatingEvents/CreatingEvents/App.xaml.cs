@@ -1,4 +1,5 @@
-﻿using System;
+﻿using CreatingEvents.Pages;
+using System;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -10,7 +11,7 @@ namespace CreatingEvents
         {
             InitializeComponent();
 
-            MainPage = new NavigationPage(new MainPage());
+            MainPage = new NavigationPage(new AuthPage());
         }
 
         protected override void OnStart()

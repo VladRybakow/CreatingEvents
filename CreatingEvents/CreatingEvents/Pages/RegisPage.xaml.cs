@@ -10,9 +10,9 @@ using Xamarin.Forms.Xaml;
 namespace CreatingEvents.Pages
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class EventFlyoutPageDetail : ContentPage
+    public partial class RegisPage : ContentPage
     {
-        public EventFlyoutPageDetail()
+        public RegisPage()
         {
             InitializeComponent();
         }
